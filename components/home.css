@@ -1,0 +1,108 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  padding: 10px 20px;
+  position: fixed;
+}
+
+.navbar_left {
+  display: flex;
+  align-items: center;
+}
+
+.product_tag {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar_left ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar_left ul li {
+  margin-right: 20px;
+}
+
+.navbar_left a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar_left a:hover {
+  text-decoration: underline;
+}
+
+.navbar_right img {
+  width: 20px;
+  height: 20px;
+}
+
+/*log out css*/
+
+.dropdown-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.dropdown-button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.dropdown-content {
+  /* display: none; */
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content li {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropdown-content li:hover {
+  background-color: #ddd;
+}
+
+.dropdown-button:focus + .dropdown-content {
+  display: block;
+}
+.value_data {
+  padding-top: 4.3rem;
+  display: flex;
+}
+.color {
+  /* background-image: url(../assets/deevali.jpg); */
+  height: 40rem;
+  background-size: cover;
+}
+.mobile {
+  margin-top: 2rem;
+  margin-left: 5.5rem;
+  position: relative;
+  bottom: 18rem;
+ 
+}

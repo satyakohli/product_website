@@ -1,0 +1,114 @@
+/* Center the entire page content */
+body {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    background: url('your-background-image.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-blur: 10px; /* Adjust the blur amount as needed */
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the color and opacity as needed */
+    backdrop-filter: blur(10px); /* Adjust the blur amount to match background-blur */
+  }
+  
+  /* Style the header */
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  /* Style the product list */
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Style individual product items */
+  li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style product images */
+  img {
+    max-width: 100%;
+    max-height: 200px;
+  }
+  
+  /* Style the "Add to Cart" button */
+  button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Style the product details */
+  .product-details {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Additional styling for specific elements */
+  .product-details span {
+    font-weight: bold;
+  }
+  
+  /* Add hover effect on product items */
+  li:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    transform: scale(1.02);
+  }
+  
+  /* Style the cart */
+  .cart {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Style the cart items */
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style the cart item */
+  .cart li {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .navbar_left li{
+    background-color: transparent;
+  }

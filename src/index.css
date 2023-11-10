@@ -1,0 +1,26 @@
+
+.card-items{
+    display: flex;
+    background-color: white;
+    border: 1px solid gray;
+    width: 45rem;
+}
+.money{
+    text-decoration: line-through;
+}
+.free{
+    color: rgb(9, 110, 9);
+    padding-left: 0.5rem;
+}
+.amount{
+    background-color: white;
+    border: 1px solid gray;
+    width: 25rem;
+    margin-left: 1rem;
+    text-align: left;
+    padding: 3rem;
+    height: 15rem;
+}
+.sign_up button{
+    background-color: white;
+}

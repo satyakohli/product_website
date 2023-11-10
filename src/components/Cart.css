@@ -1,0 +1,82 @@
+/* Add this CSS to your component's stylesheet or import an external stylesheet */
+
+/* Container for the entire cart */
+.value_data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 2rem;
+  }
+  
+  /* Styling for individual items in the cart */
+  .card-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-items img {
+    max-width: 6rem;
+    max-height: 6rem;
+  }
+  
+  /* Styling for the "Remove" button */
+  .card-items button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .card-items button:hover {
+    background-color: #e6574d;
+  }
+  
+  /* Styling for product details */
+  .card-items p {
+    margin: 0.5rem 0;
+  }
+  
+  /* Styling for the delivery information */
+  .card-items .money {
+    color: #388e3c;
+    font-weight: bold;
+  }
+  
+  .card-items .free {
+    color: #388e3c;
+    font-weight: bold;
+  }
+  
+  /* Styling for the total amount section */
+  .amount {
+    margin: 2rem;
+  }
+  
+  .amount h4,
+  .amount h5,
+  .amount h3 {
+    margin: 0.5rem 0;
+  }
+  
+  /* Styling for the "Free" delivery charges */
+  .amount h4 span {
+    color: #388e3c;
+  }
+  
+  /* Styling for the total amount */
+  .amount h3 span {
+    color: #000;
+    font-weight: bold;
+  }
+  
